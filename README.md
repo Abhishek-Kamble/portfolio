@@ -2,9 +2,6 @@
   Portfolio Website<br/>
   <a href="http://www.abhishekkamble.in" target="_blank">abhishekkamble.in</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
 
 <br/>
 
