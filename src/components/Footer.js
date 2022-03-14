@@ -60,8 +60,9 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
-            </li>
+            </li>            
           </ul>
+          
         </Col>
       </Row>
     </Container>

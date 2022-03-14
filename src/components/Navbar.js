@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/AK.png";
+import logo2 from "../Assets/amrut.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -41,6 +42,7 @@ function NavBar() {
         <Navbar.Brand href="/">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
+        <img src={logo2} style={{ width: "13%", marginBottom: "-10%", marginTop: "-10%"}} alt="brand" />
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
