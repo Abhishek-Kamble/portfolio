@@ -10,6 +10,7 @@ import {
   DiMysql,
 } from "react-icons/di";
 import {GrOracle} from "react-icons/gr";
+import { SiSpring } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -34,6 +35,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <GrOracle />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpring />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />

@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Abhishek Kamble </span>
             from <span className="purple"> Sangli (MH), India.</span>
-            <br />I am a Third-Year computer science and engg. undergraduate pursing B.Tech. Degree from Walchand College of Engineering, Sangli
+            <br />I am a Final Year computer science undergraduate pursing B. Tech. Degree from Walchand College of Engineering, Sangli
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

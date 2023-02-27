@@ -96,8 +96,8 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="#"
-                target="_blank"
+                href="/blogs"
+                onClick={() => updateExpanded(false)}
                 rel="noreferrer"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs

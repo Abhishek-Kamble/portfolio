@@ -12,6 +12,24 @@ function Github() {
     grade1: "#c084f5",
     grade0: "#ecd9fc",
   };
+
+  const selectLastHalfYear = contributions => {
+    const currentYear = new Date().getFullYear();
+    const currentMonth = new Date().getMonth();
+    const shownMonths = 6;
+  
+    return contributions.filter(day => {
+      const date = new Date(day.date);
+      const monthOfDay = date.getMonth();
+  
+      return (
+        date.getFullYear() === currentYear &&
+        monthOfDay > currentMonth - shownMonths &&
+        monthOfDay <= currentMonth
+      );
+    });
+  };
+  
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
@@ -21,6 +39,7 @@ function Github() {
         username="Abhishek-Kamble"
         blockSize={15}
         blockMargin={5}
+        transformData={selectLastHalfYear}
         theme={colourTheme}
         fontSize={16}
       />
