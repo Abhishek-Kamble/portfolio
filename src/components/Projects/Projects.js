@@ -28,7 +28,7 @@ function Projects() {
               description="• Designed and developed a real-time central events and activities
               publishing website for college campus.
               • Features: Multi-role users, unique likes & comments, Google OAuth sign in facility, enhanced security using JWT etc."
-              link="https://github.com/Abhishek-Kamble/WCE-Hub"
+              link="http://wce-hub.abhishekkamble.in/"
             />
           </Col>
 
