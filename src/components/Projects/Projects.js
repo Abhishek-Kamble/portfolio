@@ -5,8 +5,9 @@ import Particle from "../Particle";
 
 import wcehub from "../../Assets/Projects/wcehub.png";
 import wceconnects from "../../Assets/Projects/wceconnects.png";
-import covid from "../../Assets/Projects/covid.jpeg"
-import pace from "../../Assets/Projects/pace.png"
+import covid from "../../Assets/Projects/covid.jpeg";
+import pace from "../../Assets/Projects/pace.png";
+import testscriptor from "../../Assets/Projects/TestScriptor.png";
 
 function Projects() {
   return (
@@ -20,6 +21,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={testscriptor}
+              isBlog={false}
+              title="TestScriptor"
+              description="◦Developed an innovative bot leveraging the OpenAI API to automatically generate functional test cases based on product
+              requirement documentation (PRD) for AFourTech.
+              ◦Implemented a tagging system to classify test cases by product feature, priority, and severity, enhancing organization and
+              traceability."
+              link="https://github.com/Abhishek-Kamble/TestScriptors"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wcehub}

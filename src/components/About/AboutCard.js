@@ -8,9 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Abhishek Kamble </span>
-            from <span className="purple"> Sangli (MH), India.</span>
-            <br />I am a Final Year computer science undergraduate pursing B. Tech. Degree from Walchand College of Engineering, Sangli
+            Hi everyone, my name is <span className="purple">Abhishek </span>
+            I'm from <span className="purple"> Pune, India.</span>
+            <br />I have completed my B.Tech. in computer science and from WCE,
+            Sangli, where I have developed a strong foundation in backend and
+            frontend technologies. If you're interested in connecting or
+            discussing potential collaborations, please feel free to reach out.
+            Let's innovate and create together!
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

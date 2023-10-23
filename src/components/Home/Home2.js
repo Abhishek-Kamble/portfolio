@@ -26,31 +26,31 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript</b>
+                <b className="purple">
+                  {" "}
+                  C, C++, Javascript, Node.Js and ReactJS
+                </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's is building &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Innovative Products </b> and also in areas
+                related to{" "}
                 <b className="purple">
-                  Cloud Computing.
+                  Cloud Computing and Mainframe technologies.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Java</b> and
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> Frameworks</b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js.</b>
+                <b className="purple"> Spring Boot.</b>
               </i>
             </p>
           </Col>
