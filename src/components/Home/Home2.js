@@ -28,7 +28,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  C, C++, Javascript, Node.Js and ReactJS
+                  C++, Java, JavaScript, Ruby on Rails and ReactJS
                 </b>
               </i>
               <br />
@@ -36,21 +36,21 @@ function Home2() {
               My field of Interest's is building &nbsp;
               <i>
                 <b className="purple">Innovative Products </b> and also in areas
-                related to{" "}
-                <b className="purple">
-                  Cloud Computing and Mainframe technologies.
-                </b>
+                related to <b className="purple">Cloud Computing.</b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Java</b> and
+              with <b className="purple">Java, Ruby, Python</b> and
               <i>
                 <b className="purple"> Frameworks</b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> Spring Boot.</b>
+                <b className="purple">
+                  {" "}
+                  Spring Boot, Ruby on Rails and Django etc.
+                </b>
               </i>
             </p>
           </Col>

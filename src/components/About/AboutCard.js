@@ -8,12 +8,23 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone, my name is <span className="purple">Abhishek </span>
-            I'm from <span className="purple"> Pune, India.</span>
-            <br />I have completed my B.Tech. in computer science and from WCE,
-            Sangli, where I have developed a strong foundation in backend and
-            frontend technologies. If you're interested in connecting or
-            discussing potential collaborations, please feel free to reach out.
+            Hi everyone, my name is{" "}
+            <span className="purple">Abhishek Kamble</span>
+            I'm from <span className="purple"> Pune (India).</span>
+            <br />I graduated from{" "}
+            <span className="purple">
+              Walchand College of Engineering, Sangli
+            </span>{" "}
+            , with a degree in Computer Science in 2023. Currently, I am working
+            as a
+            <span className="purple">
+              Software Engineer at Cornerstone OnDemand
+            </span>
+            , where I contribute to building scalable and impactful solutions.
+            <br />
+            I’m always open to connecting and exploring exciting opportunities
+            for collaboration. Feel free to reach out!
+            <br />
             Let's innovate and create together!
             <br />
             <br />
@@ -24,7 +35,7 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Chess
+              <ImPointRight /> Playing Table Tennis
             </li>
             <li className="about-activity">
               <ImPointRight /> Photography
